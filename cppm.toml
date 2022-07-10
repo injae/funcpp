@@ -1,0 +1,16 @@
+[package]
+    name = "funcpp"
+    version = "0.0.1"
+    description = "c++ header only monad library"
+    standard="17"
+
+[lib]
+    name = "funcpp"
+    type = "header-only"
+
+[[example]]
+   name = "basic"
+   source = ["examples/basic.cpp"]
+
+[dev-dependencies]
+    fmt= "8.0.1"
